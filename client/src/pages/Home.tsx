@@ -19,6 +19,51 @@ const Home: React.FC = () => {
           </div>
           
           <div className="hero-visual">
+            <div className="coding-section">
+              <div className="person-coding">
+                <div className="coding-person">
+                  <div className="person-avatar">
+                    <div className="person-head">👨‍💻</div>
+                    <div className="person-body">💻</div>
+                  </div>
+                  <div className="coding-glow"></div>
+                </div>
+              </div>
+              
+              <div className="code-screen">
+                <div className="code-header">
+                  <div className="code-dots">
+                    <span className="dot red"></span>
+                    <span className="dot yellow"></span>
+                    <span className="dot green"></span>
+                  </div>
+                  <span className="code-title">cls.js</span>
+                </div>
+                <div className="code-content">
+                  <div className="code-line">
+                    <span className="code-keyword">const</span> 
+                    <span className="code-variable"> cls</span> 
+                    <span className="code-operator"> = </span>
+                    <span className="code-string">"Code That Serves"</span>
+                  </div>
+                  <div className="code-line">
+                    <span className="code-keyword">function</span> 
+                    <span className="code-function"> createSoftware</span>
+                    <span className="code-bracket">()</span> 
+                    <span className="code-bracket">{'{'}</span>
+                  </div>
+                  <div className="code-line">
+                    <span className="code-indent">  </span>
+                    <span className="code-keyword">return</span> 
+                    <span className="code-string"> "Software That Delivers"</span>
+                  </div>
+                  <div className="code-line">
+                    <span className="code-bracket">{'}'}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
             <div className="star-cards">
               <div className="star-card">
                 <div className="star-icon">★</div>

@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="logo">
-        <div className="logo-icon">CLS</div>
+        <img src="/logo.png" alt="CLS Logo" className="logo-image" />
         CLS
       </Link>
       
