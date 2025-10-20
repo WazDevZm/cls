@@ -23,8 +23,11 @@ const Home: React.FC = () => {
               <div className="person-coding">
                 <div className="coding-person">
                   <div className="person-avatar">
-                    <div className="person-head">👨‍💻</div>
-                    <div className="person-body">💻</div>
+                    <img 
+                      src="/handsome-black-man-standing-blue-wall-removebg-preview.png" 
+                      alt="Professional developer with laptop"
+                      className="person-image"
+                    />
                   </div>
                   <div className="coding-glow"></div>
                 </div>
